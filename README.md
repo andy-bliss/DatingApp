@@ -64,7 +64,7 @@ NB: The following commands must be run from "api" sub-directory
 Initial Create
 ```
 PS E:\DatingApp\api> dotnet ef migrations add InitialCreate --output Data/Migration
-dotnet ef database update
+PS E:\DatingApp\api> dotnet ef database update
 ```
 List migrations
 ```
@@ -73,7 +73,7 @@ PS E:\DatingApp\api> dotnet ef migrations list
 
 Delete the database
 ```
-dotnet ef database drop
+PS E:\DatingApp\api> dotnet ef database drop
 ```
 
 ## Node commands
