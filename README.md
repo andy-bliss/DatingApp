@@ -71,6 +71,11 @@ List migrations
 PS E:\DatingApp\api> dotnet ef migrations list
 ```
 
+Delete the database
+```
+dotnet ef database drop
+```
+
 ## Node commands
 
 Pre-Flight version check for Node.js and NPM
