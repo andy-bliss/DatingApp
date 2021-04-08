@@ -9,6 +9,8 @@ This repo is for my work as I follow the Udemy course "[Build an app with ASPNET
 - [VSCode Extensions](#VSCode-Extensions)
 - [DotNet commands](#DotNet-commands)
 - [Entity Framework commands](#Entity-Framework-commands)
+- [Node Commands](#Node-Commands)
+- [Angular CLI commands](#Angular-CLI-commands)
 
 ## Software
 
@@ -98,6 +100,13 @@ PS E:\DatingApp> npm install -g @angular/cli@10.2.3
 
 NB: Angular CLI options selected - Yes (to routing), CSS (for styling)
 
+Install Font Awesome
+```
+PS E:\DatingApp\client> npm install font-awesome
+```
+
+## Angular CLI commands
+
 Create the Angular client
 ```
 PS E:\DatingApp> ng new client
@@ -113,7 +122,17 @@ Install Bootstrap
 PS E:\DatingApp\client> ng add ngx-bootstrap
 ```
 
-Install Font Awesome
+Create the Nav component
 ```
-PS E:\DatingApp\client> npm install font-awesome
+PS E:\DatingApp\client> ng g component nav --skip-tests
+```
+
+Create a Service
+```
+PS E:\DatingApp\client\src\app\_services> ng g service account --skip-tests
+```
+
+Create a Home component
+```
+PS E:\DatingApp\client\src\app> ng g component home --skip-tests
 ```
