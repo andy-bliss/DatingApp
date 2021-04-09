@@ -105,6 +105,16 @@ Install Font Awesome
 PS E:\DatingApp\client> npm install font-awesome
 ```
 
+Install NGX Toaster
+```
+PS E:\DatingApp\client> npm install ngx-toastr
+```
+
+Install Bootswatch
+```
+PS E:\DatingApp\client> npm install bootswatch
+```
+
 ## Angular CLI commands
 
 Create the Angular client
@@ -127,12 +137,24 @@ Create the Nav component
 PS E:\DatingApp\client> ng g component nav --skip-tests
 ```
 
-Create a Service
+Create a Service called "account"
 ```
 PS E:\DatingApp\client\src\app\_services> ng g service account --skip-tests
 ```
 
-Create a Home component
+Create a Home component (using shorthand)
 ```
-PS E:\DatingApp\client\src\app> ng g component home --skip-tests
+PS E:\DatingApp\client\src\app> ng g c home --skip-tests
+```
+
+Create a Guard called "auth"
+```
+PS E:\DatingApp\client\src\app\_guards> ng g guard auth --skip-tests
+```
+
+NB: "auth" Guard options selected - CanActivate
+
+Create a Module called "shared", without putting it into a sub-directory
+```
+PS E:\DatingApp\client\src\app\_modules> ng g module shared --flat
 ```
