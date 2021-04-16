@@ -158,3 +158,9 @@ Create a Module called "shared", without putting it into a sub-directory
 ```
 PS E:\DatingApp\client\src\app\_modules> ng g module shared --flat
 ```
+
+Create an Interceptor called "error"
+```
+PS E:\DatingApp\client\src\app\_interceptors> ng g interceptor error --skip-tests
+```
+
