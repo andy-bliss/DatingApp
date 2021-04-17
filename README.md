@@ -11,6 +11,7 @@ This repo is for my work as I follow the Udemy course "[Build an app with ASPNET
 - [Entity Framework commands](#Entity-Framework-commands)
 - [Node Commands](#Node-Commands)
 - [Angular CLI commands](#Angular-CLI-commands)
+- [NuGet Packages](#NuGet-Packages)
 
 ## Software
 
@@ -31,6 +32,11 @@ The following extensions have been added to VSCode:
 6. [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) v11.2.9
 7. [Angular Snippets (Version 11)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) v11.0.0
 8. [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) v0.2.0
+
+## NuGet Packages
+
+The following NuGet packages have been added to the API project:
+1. AutoMapper.Extensions.Microsoft.DependencyInjection by Jimmy Bogard v8.1.1
 
 ## DotNet commands
 
